@@ -2,11 +2,12 @@
 
 In this API we have a CRUD of users and tasks using MongoDB database.
 
-## Installation
+## Instructions
 
-```bash
-$ npm install
-```
+1. Install dependencies with <i>npm install</i>
+2. Add the .env file with the MONGO_URL variable containing the url of your database <br>
+   By default it will access "mongodb://localhost:27017/graphql" if nothing is specified in the .env <br>
+   To change it access the environment file in the config folder
 
 ## Running the app
 
